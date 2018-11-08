@@ -1,0 +1,21 @@
+{
+  "name": "PipelineDemo",
+  "description": "Gregs Pipeline Demo",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
